@@ -21,7 +21,7 @@ def train_model():
     mae = mean_absolute_error(y_test, predictions)
     print(f"Mean Absolute Error: {mae}")
 
-    joblib.dump(model, "data/car_price_model.pkl")
+    joblib.dump(model, "data/car_price_model_RFR.pkl", compress=3)
     joblib.dump(X_train.columns.tolist(), "data/model_columns.pkl")
 
 if __name__ == "__main__":
