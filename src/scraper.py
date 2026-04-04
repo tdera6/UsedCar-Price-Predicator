@@ -1,6 +1,5 @@
 import requests
 import pandas as pd
-import random
 import time
 
 SAVE_URL = "data/cars_data.csv"
