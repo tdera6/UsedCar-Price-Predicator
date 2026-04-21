@@ -66,3 +66,7 @@ streamlit run src/app.py
 - `src/train_model.py` - variable encoding and XGBoost model training
 - `src/app.py` - main user interface file (Streamlit)
 - `requirements.txt` - list of required Python packages
+
+## Known Limitations & Future Ideas
+* **Accuracy:** The model's average error is around 9000 PLN. This is because it predicts prices based on basic stats (like year, mileage, and engine size). It cannot see the car's actual physical condition, accident history, or premium equipment.
+* **UI Input Validation:** Currently, the user interface allows selecting any combination of Make and Model.
