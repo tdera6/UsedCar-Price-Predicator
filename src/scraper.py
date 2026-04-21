@@ -3,7 +3,7 @@ import pandas as pd
 import time
 
 SAVE_URL = "data/cars_data.csv"
-PAGES = 7000
+PAGES = 1000
 
 def get_car_data_from_url(max_pages=PAGES):
 
@@ -70,7 +70,7 @@ def get_car_data_from_url(max_pages=PAGES):
 
             print(f"Postęp strony {page_number}/{max_pages} - {(page_number/max_pages) * 100:.2f}%")
 
-            time.sleep(0.1)
+            time.sleep(0.01)
             
         except Exception as e:
             print(f"Wystąpił błąd: {e}")
