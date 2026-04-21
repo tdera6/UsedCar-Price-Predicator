@@ -36,5 +36,5 @@ if st.button("Predict Price"):
     input_data_encoded = input_data_encoded.reindex(columns=columns, fill_value=0)
 
     predicted_price = model.predict(input_data_encoded)[0]
-    st.success(f"Predicted Price: {predicted_price} PLN")
+    st.success(f"Predicted Price: {predicted_price:.2f} PLN")
 
