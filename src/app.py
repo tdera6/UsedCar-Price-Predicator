@@ -4,7 +4,7 @@ import joblib
 
 @st.cache_data
 def load_model():
-    model = joblib.load("data/car_price_model_RFR.pkl")
+    model = joblib.load("data/car_price_model.pkl")
     columns = joblib.load("data/model_columns.pkl")
     return model, columns
 
