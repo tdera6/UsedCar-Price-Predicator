@@ -26,7 +26,7 @@ The trained model and column templates are included in the repository (in the `d
 ### 1. Clone the repository
 
 ```bash
-git clone [https://github.com/tdera6/UsedCar-Price-Predicator.git](https://github.com/tdera6/UsedCar-Price-Predicator.git)
+git clone https://github.com/tdera6/UsedCar-Price-Predicator.git
 cd UsedCar-Price-Predicator
 ```
 
