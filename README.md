@@ -23,21 +23,40 @@ This repository contains a set of scripts that form a basic data pipeline:
 
 The trained model and column templates are included in the repository (in the `data/` folder), so the app works out of the box.
 
-1. Clone the repository:
-   git clone https://github.com/tdera6/UsedCar-Price-Predicator.git
-   cd UsedCar-Price-Predicator
+### 1. Clone the repository
 
-2. Create and activate a virtual environment:
-   python -m venv venv
-   source venv/bin/activate # Linux/Mac
+```bash
+git clone [https://github.com/tdera6/UsedCar-Price-Predicator.git](https://github.com/tdera6/UsedCar-Price-Predicator.git)
+cd UsedCar-Price-Predicator
+```
 
-# or for Windows: venv\Scripts\activate
+### 2. Create and activate a virtual environment
 
-3. Install dependencies:
-   pip install -r requirements.txt
+**Linux / Mac:**
 
-4. Run the web app:
-   streamlit run src/app.py
+```bash
+python -m venv venv
+source venv/bin/activate
+```
+
+**Windows:**
+
+```bash
+python -m venv venv
+venv\Scripts\activate
+```
+
+### 3. Install dependencies
+
+```bash
+pip install -r requirements.txt
+```
+
+### 4. Run the web app
+
+```bash
+streamlit run src/app.py
+```
 
 ## Project Structure
 
